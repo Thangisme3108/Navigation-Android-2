@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_lock_power_off"/>
+    <group android:checkableBehavior="single">
+        <item android:title="Quản lý">
+            <menu>
+                <item android:id="@+id/qlsp"
+                    android:title="Sản phẩm"
+                    android:icon="@android:drawable/ic_input_add"/>
+                <item android:id="@+id/qluser"
+                    android:title="Người dùng"
+                    android:icon="@android:drawable/ic_input_add"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Cài đặt">
+            <menu>
+                <item android:id="@+id/setting"
+                    android:title="Cài đặt"
+                    android:icon="@android:drawable/ic_input_add"/>
+                <item android:id="@+id/logout"
+                    android:title="Đăng xuất"
+                    android:icon="@android:drawable/ic_input_add"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
